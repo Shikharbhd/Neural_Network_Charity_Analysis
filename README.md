@@ -44,21 +44,44 @@ First features we drop are the 'EIN' & 'NAME' because we expect both features to
 a. How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
 This model is made with an input features & two hidden layers. The first hidden layer has 80 neurons, the second has 30 there is also an output layer. Each layer has an activation function. The first and second hidden layers have an activation function "relu" & the output layer is "sigmoid".
+![Del2_Test.png](https://github.com/Shikharbhd/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Del2_Test.png)
 
 b. Were you able to achieve the target model performance?
 
 Although we the target for the model was to be 75% or above, however the accuracy only 72.60%
+![Test_1.png](https://github.com/Shikharbhd/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Test_1.png)
 
 c. What steps did you take to try and increase model performance?
 
 Further testing was done with by adding hidden layers, changing the activation type, changing the number of epochs and changing the number of neurons in each layer.
 
 * Optimised Model 1: 72.58%
+![Optimisation_1.png](https://github.com/Shikharbhd/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Optimisation_1.png)
+
+![Optimisation_Test1.png](https://github.com/Shikharbhd/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Optimisation_Test1.png)
 
 * Optimised Model 2: 72.58%
+![Optimisation_2.png](https://github.com/Shikharbhd/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Optimisation_2.png)
+![Optimisation_Test2.png](https://github.com/Shikharbhd/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Optimisation_Test2.png)
 
 * Optimised Model 3: 72.6%
+![Optimisation_3.png](https://github.com/Shikharbhd/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Optimisation_3.png)
+![Optimisation_Test3.png](https://github.com/Shikharbhd/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Optimisation_Test3.png)
 
 Likewise a dynamic tuned models that statically and dynamically selected inputs, layers, neurons, and activations and yeilded following results.
 
 * Optimised Model 4: 73.50%
+![Optimisation_4.png](https://github.com/Shikharbhd/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Optimisation_4.png)
+![Optimisation_Test4.png](https://github.com/Shikharbhd/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Optimisation_Test4.png)
+
+## Summary:
+
+Although we the target for the model was to be 75% or above,  the accuracy was only 72.60%. Subsequent optimisation resulted in the following outcomes
+* Optimised Model 1: 72.58%
+* Optimised Model 2: 72.58%
+* Optimised Model 3: 72.6%
+* Optimised Model 4: 73.50%
+
+### recommendation: 
+
+To further investigate these tests we recommend alternative, non-sequential hyperparameter models. Another means of improving accuracy is to have more datapoints. Although we did not boost success rate to 75%, we have minimized loss using these tuned models.
